@@ -19,3 +19,8 @@ As with the last example, this one needs to be flexible in the middle, with item
 - Items are arranged horizontally as seen in the outcome image.
 - There is 16px between each item on both sides of the header.
 - flex is used to arrange everything.
+- 所有内容在页眉内垂直居中。
+- 所有内容与页眉边缘之间有8像素的间距。
+- 如效果图所示，各项内容水平排列。
+- 页眉两侧的每个项目之间相隔16像素。
+- 使用弹性布局（flex）来排列所有内容。
