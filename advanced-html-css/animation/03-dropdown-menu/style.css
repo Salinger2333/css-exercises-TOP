@@ -29,4 +29,20 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+/* solution */
+.visible {
+  animation: expand 0.4s ease-in-out;
+  transform-origin: 50% 0;
+}
 
+@keyframes expand {
+  from {
+    transform: scaleY(0%);
+  }
+  75% {
+    transform: scaleY(1.03);
+  }
+  to {
+    transform: scaleY(100%);
+  }
+}
